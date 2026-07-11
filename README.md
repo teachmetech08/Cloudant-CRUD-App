@@ -29,10 +29,9 @@ A cloud-native operational task engine engineered for full-stack data mutation p
 
 ## 📦 Local Installation Guide
 
-1. Clone this cloud repository down to your computer workspace:
+1. Clone this cloud repository down to your computer workspace, navigate into the directory, install the required dependencies, and launch the server:
    ```bash
    git clone https://github.com/teachmetech08/Cloudant-CRUD-App.git
    cd Cloudant-CRUD-App
    pip install -r requirements.txt
    python app.py
-   ```
