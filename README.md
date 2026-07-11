@@ -35,3 +35,22 @@ A cloud-native operational task engine engineered for full-stack data mutation p
    cd Cloudant-CRUD-App
    pip install -r requirements.txt
    python app.py
+
+---
+
+## 🖥️ System Interface & Cloud Infrastructure Verification
+
+### 1. Cloudant Task Engine User Interface
+The application frontend dashboard displays responsive operational logs, critical metric counters, and integrated CRUD states executing locally:
+
+![Cloudant Task Engine UI](Website-UI.png)
+
+### 2. Remote IBM Cloudant Database Instance
+Verification of the live cloud instance `task-db` securely provisioned and running within the IBM Cloud infrastructure:
+
+![IBM Cloudant DB Instance](Cloudant-DB-List.png)
+
+### 3. Live NoSQL Data Persistence Layer
+A transparent view inside the `task-db` collection, demonstrating the unstructured JSON schemas mapping directly to the active web interface rows:
+
+![IBM Cloudant Documents](Cloudant-Documents.png)
